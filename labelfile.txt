@@ -1,0 +1,2 @@
+n02007558 0 Negative
+n02006656 1 Positive

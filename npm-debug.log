@@ -1,0 +1,396 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'svelte-cli@2.2.0' ]
+2 info using npm@3.5.2
+3 info using node@v4.2.6
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData svelte-cli@2.2.0
+8 silly fetchNamedPackageData svelte-cli
+9 silly mapToRegistry name svelte-cli
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/svelte-cli
+13 verbose request uri https://registry.npmjs.org/svelte-cli
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 3:29:10 PM
+16 verbose request id dd20e4dea5b0fe83
+17 verbose etag W/"3d3a129e2a6dfeac1a05c9955545f450"
+18 verbose lastModified Sun, 27 May 2018 18:40:00 GMT
+19 http request GET https://registry.npmjs.org/svelte-cli
+20 http 304 https://registry.npmjs.org/svelte-cli
+21 verbose headers { date: 'Tue, 26 Jun 2018 22:29:10 GMT',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'set-cookie': [ '__cfduid=d72a2c51be7e3f7b2745cacac3d2dcb5a1530052150; expires=Wed, 26-Jun-19 22:29:10 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+21 verbose headers   'cache-control': 'max-age=300',
+21 verbose headers   'cf-cache-status': 'HIT',
+21 verbose headers   'cf-ray': '43131c74dabf79a3-SEA',
+21 verbose headers   etag: '"3d3a129e2a6dfeac1a05c9955545f450"',
+21 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+21 verbose headers   'last-modified': 'Sun, 27 May 2018 18:40:00 GMT',
+21 verbose headers   vary: 'accept-encoding, accept',
+21 verbose headers   server: 'cloudflare' }
+22 silly get cb [ 304,
+22 silly get   { date: 'Tue, 26 Jun 2018 22:29:10 GMT',
+22 silly get     connection: 'keep-alive',
+22 silly get     'set-cookie': [ '__cfduid=d72a2c51be7e3f7b2745cacac3d2dcb5a1530052150; expires=Wed, 26-Jun-19 22:29:10 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+22 silly get     'cache-control': 'max-age=300',
+22 silly get     'cf-cache-status': 'HIT',
+22 silly get     'cf-ray': '43131c74dabf79a3-SEA',
+22 silly get     etag: '"3d3a129e2a6dfeac1a05c9955545f450"',
+22 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+22 silly get     'last-modified': 'Sun, 27 May 2018 18:40:00 GMT',
+22 silly get     vary: 'accept-encoding, accept',
+22 silly get     server: 'cloudflare' } ]
+23 verbose etag https://registry.npmjs.org/svelte-cli from cache
+24 verbose get saving svelte-cli to /home/elebouder/.npm/registry.npmjs.org/svelte-cli/.cache.json
+25 silly install normalizeTree
+26 silly loadCurrentTree Finishing
+27 silly loadIdealTree Starting
+28 silly install loadIdealTree
+29 silly cloneCurrentTree Starting
+30 silly install cloneCurrentTreeToIdealTree
+31 silly cloneCurrentTree Finishing
+32 silly loadShrinkwrap Starting
+33 silly install loadShrinkwrap
+34 silly loadShrinkwrap Finishing
+35 silly loadAllDepsIntoIdealTree Starting
+36 silly install loadAllDepsIntoIdealTree
+37 silly resolveWithNewModule svelte-cli@2.2.0 checking installable status
+38 silly cache add args [ 'svelte-cli@2.2.0', null ]
+39 verbose cache add spec svelte-cli@2.2.0
+40 silly cache add parsed spec Result {
+40 silly cache add   raw: 'svelte-cli@2.2.0',
+40 silly cache add   scope: null,
+40 silly cache add   name: 'svelte-cli',
+40 silly cache add   rawSpec: '2.2.0',
+40 silly cache add   spec: '2.2.0',
+40 silly cache add   type: 'version' }
+41 silly addNamed svelte-cli@2.2.0
+42 verbose addNamed "2.2.0" is a plain semver version for svelte-cli
+43 silly mapToRegistry name svelte-cli
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry uri https://registry.npmjs.org/svelte-cli
+47 verbose addNameVersion registry:https://registry.npmjs.org/svelte-cli not in flight; fetching
+48 verbose get https://registry.npmjs.org/svelte-cli not expired, no request
+49 silly cache afterAdd svelte-cli@2.2.0
+50 verbose afterAdd /home/elebouder/.npm/svelte-cli/2.2.0/package/package.json not in flight; writing
+51 verbose afterAdd /home/elebouder/.npm/svelte-cli/2.2.0/package/package.json written
+52 silly fetchNamedPackageData svelte
+53 silly mapToRegistry name svelte
+54 silly mapToRegistry using default registry
+55 silly mapToRegistry registry https://registry.npmjs.org/
+56 silly mapToRegistry uri https://registry.npmjs.org/svelte
+57 verbose request uri https://registry.npmjs.org/svelte
+58 verbose request no auth needed
+59 info attempt registry request try #1 at 3:29:10 PM
+60 verbose etag W/"59b8738c196aee6dee8c8e18c3891557"
+61 verbose lastModified Sat, 23 Jun 2018 00:20:42 GMT
+62 http request GET https://registry.npmjs.org/svelte
+63 http 304 https://registry.npmjs.org/svelte
+64 verbose headers { date: 'Tue, 26 Jun 2018 22:29:10 GMT',
+64 verbose headers   connection: 'keep-alive',
+64 verbose headers   'set-cookie': [ '__cfduid=d2b702940e8b4a756e3df8f9ae52f77501530052150; expires=Wed, 26-Jun-19 22:29:10 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+64 verbose headers   'cache-control': 'max-age=300',
+64 verbose headers   'cf-cache-status': 'HIT',
+64 verbose headers   'cf-ray': '43131c75aca22a79-SEA',
+64 verbose headers   etag: '"59b8738c196aee6dee8c8e18c3891557"',
+64 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+64 verbose headers   'last-modified': 'Sat, 23 Jun 2018 00:20:42 GMT',
+64 verbose headers   vary: 'accept-encoding, accept',
+64 verbose headers   server: 'cloudflare' }
+65 silly get cb [ 304,
+65 silly get   { date: 'Tue, 26 Jun 2018 22:29:10 GMT',
+65 silly get     connection: 'keep-alive',
+65 silly get     'set-cookie': [ '__cfduid=d2b702940e8b4a756e3df8f9ae52f77501530052150; expires=Wed, 26-Jun-19 22:29:10 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+65 silly get     'cache-control': 'max-age=300',
+65 silly get     'cf-cache-status': 'HIT',
+65 silly get     'cf-ray': '43131c75aca22a79-SEA',
+65 silly get     etag: '"59b8738c196aee6dee8c8e18c3891557"',
+65 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+65 silly get     'last-modified': 'Sat, 23 Jun 2018 00:20:42 GMT',
+65 silly get     vary: 'accept-encoding, accept',
+65 silly get     server: 'cloudflare' } ]
+66 verbose etag https://registry.npmjs.org/svelte from cache
+67 verbose get saving svelte to /home/elebouder/.npm/registry.npmjs.org/svelte/.cache.json
+68 silly resolveWithNewModule svelte@1.64.1 checking installable status
+69 silly cache add args [ 'svelte@^1', null ]
+70 verbose cache add spec svelte@^1
+71 silly cache add parsed spec Result {
+71 silly cache add   raw: 'svelte@^1',
+71 silly cache add   scope: null,
+71 silly cache add   name: 'svelte',
+71 silly cache add   rawSpec: '^1',
+71 silly cache add   spec: '>=1.0.0 <2.0.0',
+71 silly cache add   type: 'range' }
+72 silly addNamed svelte@>=1.0.0 <2.0.0
+73 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for svelte
+74 silly addNameRange { name: 'svelte', range: '>=1.0.0 <2.0.0', hasData: false }
+75 silly mapToRegistry name svelte
+76 silly mapToRegistry using default registry
+77 silly mapToRegistry registry https://registry.npmjs.org/
+78 silly mapToRegistry uri https://registry.npmjs.org/svelte
+79 verbose addNameRange registry:https://registry.npmjs.org/svelte not in flight; fetching
+80 verbose get https://registry.npmjs.org/svelte not expired, no request
+81 silly addNameRange number 2 { name: 'svelte', range: '>=1.0.0 <2.0.0', hasData: true }
+82 silly addNameRange versions [ 'svelte',
+82 silly addNameRange   [ '0.0.1',
+82 silly addNameRange     '0.0.2',
+82 silly addNameRange     '0.1.0',
+82 silly addNameRange     '0.1.1',
+82 silly addNameRange     '0.2.0',
+82 silly addNameRange     '0.2.1',
+82 silly addNameRange     '0.2.2',
+82 silly addNameRange     '0.3.0',
+82 silly addNameRange     '1.0.0',
+82 silly addNameRange     '1.0.1',
+82 silly addNameRange     '1.0.2',
+82 silly addNameRange     '1.0.3',
+82 silly addNameRange     '1.0.4',
+82 silly addNameRange     '1.0.5',
+82 silly addNameRange     '1.0.6',
+82 silly addNameRange     '1.0.7',
+82 silly addNameRange     '1.1.0',
+82 silly addNameRange     '1.1.1',
+82 silly addNameRange     '1.1.2',
+82 silly addNameRange     '1.1.3',
+82 silly addNameRange     '1.2.0',
+82 silly addNameRange     '1.2.1',
+82 silly addNameRange     '1.2.2',
+82 silly addNameRange     '1.2.3',
+82 silly addNameRange     '1.2.4',
+82 silly addNameRange     '1.2.5',
+82 silly addNameRange     '1.3.0',
+82 silly addNameRange     '1.3.1',
+82 silly addNameRange     '1.4.0',
+82 silly addNameRange     '1.5.0',
+82 silly addNameRange     '1.6.0',
+82 silly addNameRange     '1.6.1',
+82 silly addNameRange     '1.6.2',
+82 silly addNameRange     '1.6.3',
+82 silly addNameRange     '1.6.4',
+82 silly addNameRange     '1.6.5',
+82 silly addNameRange     '1.6.6',
+82 silly addNameRange     '1.6.7',
+82 silly addNameRange     '1.6.8',
+82 silly addNameRange     '1.6.9',
+82 silly addNameRange     '1.6.10',
+82 silly addNameRange     '1.6.11',
+82 silly addNameRange     '1.7.0',
+82 silly addNameRange     '1.7.1',
+82 silly addNameRange     '1.8.0',
+82 silly addNameRange     '1.8.1',
+82 silly addNameRange     '1.9.0',
+82 silly addNameRange     '1.9.1',
+82 silly addNameRange     '1.10.0',
+82 silly addNameRange     '1.10.1',
+82 silly addNameRange     '1.10.2',
+82 silly addNameRange     '1.10.3',
+82 silly addNameRange     '1.11.0',
+82 silly addNameRange     '1.11.1',
+82 silly addNameRange     '1.11.2',
+82 silly addNameRange     '1.11.3',
+82 silly addNameRange     '1.11.4',
+82 silly addNameRange     '1.12.0',
+82 silly addNameRange     '1.12.1',
+82 silly addNameRange     '1.13.0',
+82 silly addNameRange     '1.13.1',
+82 silly addNameRange     '1.13.2',
+82 silly addNameRange     '1.13.3',
+82 silly addNameRange     '1.13.4',
+82 silly addNameRange     '1.13.5',
+82 silly addNameRange     '1.13.6',
+82 silly addNameRange     '1.13.7',
+82 silly addNameRange     '1.14.0',
+82 silly addNameRange     '1.14.1',
+82 silly addNameRange     '1.15.0',
+82 silly addNameRange     '1.15.1',
+82 silly addNameRange     '1.16.0',
+82 silly addNameRange     '1.17.0',
+82 silly addNameRange     '1.17.1',
+82 silly addNameRange     '1.17.2',
+82 silly addNameRange     '1.18.0',
+82 silly addNameRange     '1.18.1',
+82 silly addNameRange     '1.18.2',
+82 silly addNameRange     '1.19.0',
+82 silly addNameRange     '1.19.1',
+82 silly addNameRange     '1.20.0',
+82 silly addNameRange     '1.20.1',
+82 silly addNameRange     '1.20.2',
+82 silly addNameRange     '1.21.0',
+82 silly addNameRange     '1.22.0',
+82 silly addNameRange     '1.22.1',
+82 silly addNameRange     '1.22.2',
+82 silly addNameRange     '1.22.3',
+82 silly addNameRange     '1.22.4',
+82 silly addNameRange     '1.22.5',
+82 silly addNameRange     '1.23.0',
+82 silly addNameRange     '1.23.1',
+82 silly addNameRange     '1.23.2',
+82 silly addNameRange     '1.23.3',
+82 silly addNameRange     '1.23.4',
+82 silly addNameRange     '1.24.0',
+82 silly addNameRange     '1.25.0',
+82 silly addNameRange     '1.25.1',
+82 silly addNameRange     '1.26.0',
+82 silly addNameRange     '1.26.1',
+82 silly addNameRange     '1.26.2',
+82 silly addNameRange     '1.27.0',
+82 silly addNameRange     '1.28.0',
+82 silly addNameRange     '1.28.1',
+82 silly addNameRange     '1.29.0',
+82 silly addNameRange     '1.29.1',
+82 silly addNameRange     '1.29.2',
+82 silly addNameRange     '1.29.3',
+82 silly addNameRange     '1.30.0',
+82 silly addNameRange     '1.31.0',
+82 silly addNameRange     '1.32.0',
+82 silly addNameRange     '1.33.0',
+82 silly addNameRange     '1.34.0',
+82 silly addNameRange     '1.35.0',
+82 silly addNameRange     '1.36.0',
+82 silly addNameRange     '1.37.0',
+82 silly addNameRange     '1.38.0',
+82 silly addNameRange     '1.39.0',
+82 silly addNameRange     '1.39.1',
+82 silly addNameRange     '1.39.2',
+82 silly addNameRange     '1.39.3',
+82 silly addNameRange     '1.39.4',
+82 silly addNameRange     '1.40.0',
+82 silly addNameRange     '1.40.1',
+82 silly addNameRange     '1.40.2',
+82 silly addNameRange     '1.41.0',
+82 silly addNameRange     '1.41.1',
+82 silly addNameRange     '1.41.2',
+82 silly addNameRange     '1.41.3',
+82 silly addNameRange     '1.41.4',
+82 silly addNameRange     '1.42.0',
+82 silly addNameRange     '1.42.1',
+82 silly addNameRange     '1.43.0',
+82 silly addNameRange     '1.43.1',
+82 silly addNameRange     '1.44.0',
+82 silly addNameRange     '1.44.1',
+82 silly addNameRange     '1.44.2',
+82 silly addNameRange     '1.45.0',
+82 silly addNameRange     '1.46.0',
+82 silly addNameRange     '1.46.1',
+82 silly addNameRange     '1.47.0',
+82 silly addNameRange     '1.47.1',
+82 silly addNameRange     '1.47.2',
+82 silly addNameRange     '1.48.0',
+82 silly addNameRange     '1.49.0',
+82 silly addNameRange     '1.49.1',
+82 silly addNameRange     '1.49.2',
+82 silly addNameRange     '1.49.3',
+82 silly addNameRange     '1.50.0',
+82 silly addNameRange     '1.50.1',
+82 silly addNameRange     '1.51.0',
+82 silly addNameRange     '1.51.1',
+82 silly addNameRange     '1.52.0',
+82 silly addNameRange     '1.53.0',
+82 silly addNameRange     '1.54.0',
+82 silly addNameRange     '1.54.1',
+82 silly addNameRange     '1.54.2',
+82 silly addNameRange     '1.55.0',
+82 silly addNameRange     '1.55.1',
+82 silly addNameRange     '1.56.0',
+82 silly addNameRange     '1.56.1',
+82 silly addNameRange     '1.56.2',
+82 silly addNameRange     '1.56.3',
+82 silly addNameRange     '1.56.4',
+82 silly addNameRange     '1.57.0',
+82 silly addNameRange     '1.57.1',
+82 silly addNameRange     '1.57.2',
+82 silly addNameRange     '1.57.3',
+82 silly addNameRange     '1.57.4',
+82 silly addNameRange     '1.58.0',
+82 silly addNameRange     '1.58.1',
+82 silly addNameRange     '1.58.2',
+82 silly addNameRange     '1.58.3',
+82 silly addNameRange     '1.58.4',
+82 silly addNameRange     '1.58.5',
+82 silly addNameRange     '1.59.0',
+82 silly addNameRange     '1.60.0',
+82 silly addNameRange     '1.60.1',
+82 silly addNameRange     '1.60.2',
+82 silly addNameRange     '1.60.3',
+82 silly addNameRange     '1.61.0',
+82 silly addNameRange     '1.62.0',
+82 silly addNameRange     '1.63.0',
+82 silly addNameRange     '1.63.1',
+82 silly addNameRange     '1.64.0',
+82 silly addNameRange     '1.64.1',
+82 silly addNameRange     '2.0.0',
+82 silly addNameRange     '2.1.0',
+82 silly addNameRange     '2.1.1',
+82 silly addNameRange     '2.2.0',
+82 silly addNameRange     '2.3.0',
+82 silly addNameRange     '2.4.0',
+82 silly addNameRange     '2.4.1',
+82 silly addNameRange     '2.4.2',
+82 silly addNameRange     '2.4.3',
+82 silly addNameRange     '2.4.4',
+82 silly addNameRange     '2.5.0',
+82 silly addNameRange     '2.5.1',
+82 silly addNameRange     '2.6.0',
+82 silly addNameRange     '2.6.1',
+82 silly addNameRange     '2.6.2',
+82 silly addNameRange     '2.6.3',
+82 silly addNameRange     '2.6.4',
+82 silly addNameRange     '2.6.5',
+82 silly addNameRange     '2.6.6',
+82 silly addNameRange     '2.7.0',
+82 silly addNameRange     '2.7.1',
+82 silly addNameRange     '2.7.2',
+82 silly addNameRange     '2.8.0',
+82 silly addNameRange     '2.8.1' ] ]
+83 silly addNamed svelte@1.64.1
+84 verbose addNamed "1.64.1" is a plain semver version for svelte
+85 silly cache afterAdd svelte@1.64.1
+86 verbose afterAdd /home/elebouder/.npm/svelte/1.64.1/package/package.json not in flight; writing
+87 verbose afterAdd /home/elebouder/.npm/svelte/1.64.1/package/package.json written
+88 silly loadAllDepsIntoIdealTree Finishing
+89 silly idealTree:prePrune lib
+89 silly idealTree:prePrune └─┬ svelte-cli@2.2.0
+89 silly idealTree:prePrune   └── svelte@1.64.1
+90 silly loadIdealTree Finishing
+91 silly currentTree lib
+91 silly currentTree └─┬ svelte-cli@2.2.0
+91 silly currentTree   └── svelte@1.64.1
+92 silly idealTree lib
+92 silly idealTree └─┬ svelte-cli@2.2.0
+92 silly idealTree   └── svelte@1.64.1
+93 silly generateActionsToTake Starting
+94 silly install generateActionsToTake
+95 warn checkPermissions Missing write access to /usr/local/lib/node_modules/svelte-cli
+96 warn checkPermissions Missing write access to /usr/local/lib/node_modules
+97 silly rollbackFailedOptional Starting
+98 silly rollbackFailedOptional Finishing
+99 silly runTopLevelLifecycles Starting
+100 silly runTopLevelLifecycles Finishing
+101 silly install printInstalled
+102 verbose stack Error: EACCES: permission denied, access '/usr/local/lib/node_modules/svelte-cli'
+102 verbose stack     at Error (native)
+103 verbose cwd /home/elebouder/TNSRVIS/lucid
+104 error Linux 4.13.0-45-generic
+105 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install" "-g" "svelte-cli@2.2.0"
+106 error node v4.2.6
+107 error npm  v3.5.2
+108 error path /usr/local/lib/node_modules/svelte-cli
+109 error code EACCES
+110 error errno -13
+111 error syscall access
+112 error Error: EACCES: permission denied, access '/usr/local/lib/node_modules/svelte-cli'
+112 error     at Error (native)
+112 error  { [Error: EACCES: permission denied, access '/usr/local/lib/node_modules/svelte-cli']
+112 error   errno: -13,
+112 error   code: 'EACCES',
+112 error   syscall: 'access',
+112 error   path: '/usr/local/lib/node_modules/svelte-cli' }
+113 error Please try running this command again as root/Administrator.
+114 verbose exit [ -13, true ]
